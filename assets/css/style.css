@@ -1,0 +1,102 @@
+body {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1.25rem;
+  background-image: url(/assets/images/crocodile.jpg);
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+
+.navbar-brand {
+  color: white;
+  padding: 8px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1.25rem;
+}
+
+.navbar-expand-lg {
+  /* border: solid 1px #65f135; */
+  transition: border-width 0.6s linear;
+  box-shadow: 0 0 15px 2px #65f135;
+}
+
+.nav-item {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1.25rem;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+  text-shadow: 6px 6px 10px #65f135;
+}
+
+.special-bac {
+  background-color: transparent;
+}
+
+.card {
+  transition: border-width 0.6s linear;
+  box-shadow: 0 0 15px 1px #65f135;
+  background-color: transparent;
+}
+
+.card-body {
+  color: white;
+  opacity: 100%;
+}
+
+.fab {
+  color: white;
+}
+
+.far {
+  color: white;
+}
+
+input.trans-form {
+  background-color: transparent !important;
+  border: none !important;
+  color: white !important;
+  transition: border-width 0.6s linear;
+  box-shadow: 0 0 15px 1px #65f135;
+}
+
+textarea.trans-form {
+  background-color: transparent !important;
+  border: none !important;
+  color: white !important;
+  transition: border-width 0.6s linear;
+  box-shadow: 0 0 15px 1px #65f135;
+}
+
+
+input::-webkit-input-placeholder {
+  color: white !important;
+  opacity: .7 !important;
+  }
+   
+  input:-moz-placeholder { /* Firefox 18- */
+    color: white !important;
+    opacity: .7 !important;
+    }  
+  }
+   
+  input::-moz-placeholder {  /* Firefox 19+ */
+    color: white !important;
+    opacity: .7 !important;
+    }  
+  }
+   
+  input:-ms-input-placeholder {  
+    color: white !important;
+    opacity: .7 !important;
+    }  
+  }
+
+/* .message-input {
+  transition: border-width 0.6s linear;
+  box-shadow: 0 0 15px 1px #65f135;
+} */
