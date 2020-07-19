@@ -1,7 +1,7 @@
 body {
   font-family: 'Share Tech Mono', monospace;
   font-size: 1.25rem;
-  background-image: url(images/crocodile.jpg);
+  background-image: url(https://github.com/Michael-Veiga/Portfiolio/blob/master/images/crocodile.jpg?raw=true);
   background-size: cover !important;
   background-repeat: no-repeat;
 }
