@@ -72,29 +72,27 @@ textarea.trans-form {
   box-shadow: 0 0 15px 1px #65f135;
 }
 
-
 input::-webkit-input-placeholder {
   color: white !important;
-  opacity: .7 !important;
-  }
-   
-  input:-moz-placeholder { /* Firefox 18- */
-    color: white !important;
-    opacity: .7 !important;
-    }  
-  }
-   
-  input::-moz-placeholder {  /* Firefox 19+ */
-    color: white !important;
-    opacity: .7 !important;
-    }  
-  }
-   
-  input:-ms-input-placeholder {  
-    color: white !important;
-    opacity: .7 !important;
-    }  
-  }
+  opacity: 0.7 !important;
+}
+
+input:-moz-placeholder {
+  /* Firefox 18- */
+  color: white !important;
+  opacity: 0.7 !important;
+}
+
+input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white !important;
+  opacity: 0.7 !important;
+}
+
+input:-ms-input-placeholder {
+  color: white !important;
+  opacity: 0.7 !important;
+}
 
 /* .message-input {
   transition: border-width 0.6s linear;
